@@ -17,7 +17,7 @@ ASPCharPlayerState::ASPCharPlayerState()
 
 
 
-	NetUpdateFrequency = 100.f;
+	
 
 }
 

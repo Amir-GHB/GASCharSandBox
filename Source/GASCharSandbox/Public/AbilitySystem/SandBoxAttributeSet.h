@@ -40,5 +40,7 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Combat")
 	FGameplayAttributeData MaxMana;
 	ATTRIBUTE_ACCESSORS(USandBoxAttributeSet, MaxMana)
+
+	
 	
 };

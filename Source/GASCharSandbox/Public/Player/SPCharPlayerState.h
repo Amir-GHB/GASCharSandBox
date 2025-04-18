@@ -14,23 +14,29 @@
 class UAbilitySystemComponent;
 class UAttributeSet;
 
+
+
 UCLASS()
 class GASCHARSANDBOX_API ASPCharPlayerState : public APlayerState, public IAbilitySystemInterface
 {
 	GENERATED_BODY()
+
+
 public:
 	ASPCharPlayerState();
 
 	virtual UAbilitySystemComponent* GetAbilitySystemComponent() const override;
     UAttributeSet* GetAttributeSet() const { return AttributeSet; };
 
-	
-
-
 	UPROPERTY()
 	TObjectPtr<UAbilitySystemComponent> AbilitySystemComponent;
 
 	UPROPERTY()
 	TObjectPtr<UAttributeSet> AttributeSet;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FString Dbtest = "Hola";
+
+	
 	
 };

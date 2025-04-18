@@ -10,4 +10,5 @@ USandBoxAttributeSet::USandBoxAttributeSet()
 	InitMaxHealth(100.f);
 	InitMana(50.f);
 	InitMaxMana(80.f);
+	
 }
